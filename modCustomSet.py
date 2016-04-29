@@ -32,7 +32,7 @@ def __sub__(self, other):
         if item not in other._setList:
             myList=myList.append(item)
 
-def __conatins__(self,other):
+def __contains__(self,other):
     '''
     Description: Checks if an element is in the set
     PreCOndition: other(integer)
