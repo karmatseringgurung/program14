@@ -30,8 +30,9 @@ def __sub__(self, other):
     myList=[]
     for item in self._setList:
         if item not in other._setList:
-            myList=myList.append(item)
-
+            myList.append(item)
+    return myList
+    
 def __contains__(self,other):
     '''
     Description: Checks if an element is in the set
